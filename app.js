@@ -1,7 +1,7 @@
 const express = require('express');
 const nodemailer = require('nodemailer');
 const app = express();
-const PORT = 3000;
+//const PORT = 3000;
 
 // Middleware para interpretar o body das requisições como JSON
 app.use(express.json());
